@@ -9,6 +9,9 @@ O **mb_inspector** foi desenvolvido para automatizar a análise e identificaçã
 Para o correto funcionamento de todas as funcionalidades de varredura e inspeção, é necessário ter o **Nmap** instalado no ambiente Windows.
 
 * **Nmap para Windows:** Baixe e instale o executável oficial em [nmap.org/download.html](https://nmap.org/download.html).
+* **python para Windows:** Baixe e instalei o executável oficial em
+
+https://www.python.org/downloads/windows/
 
 ## 🚀 Principais Funcionalidades
 * **Inspeção e Identificação:** Reconhecimento e categorização de dispositivos de segurança eletrônica (câmeras, servidores, etc.).
@@ -18,6 +21,7 @@ Para o correto funcionamento de todas as funcionalidades de varredura e inspeç�
 
 ## 🛠️ Tecnologias Utilizadas
 * Python 3.x
+https://www.python.org/downloads/windows/
 * **Nmap** (Varredura de rede e identificação de serviços)
 
 ---
