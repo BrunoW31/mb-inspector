@@ -10,7 +10,7 @@ args = parser.parse_args()
 net = ipaddress.ip_network(args.rede, strict=False)
 ativos, inativos = {}, {}
 for ip in net.hosts():
-    r = subprocess.run(["ping","-n","1","-w","300",str(ip)], capture_output=True, text=True)
+    r = subprocess.run(["ping","-n","1","-w","300",str(ip)], capture_output=True, text=True, encoding="latin-1", errors="ignore")
     if r.returncode == 0:
         ativos[str(ip)] = {"tipo":"dispositivo","portas":"80,554,8000,37777"}
     else:
